@@ -14,3 +14,5 @@ Instructions:
 Folders:
 
 * prerequisites: the files required for the installation and configuration of the environment.
+
+* db-scripts: contains the scripts that will configure the PostgreSQL instance, with an specific user, role and schema.
