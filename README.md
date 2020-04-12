@@ -1,5 +1,8 @@
 # Data-Science_with_Docker
-Data Science 101 with Docker 🖥🐋📊🛠⚙🚀
+
+🖥🐋📊🛠⚙🚀
+
+Data Science 101 with Docker
 
 A complete scientific environment using Docker, Jupyter Notebooks, Apache Superset, PostgreSQL, Pgweb and MinIO.
 
