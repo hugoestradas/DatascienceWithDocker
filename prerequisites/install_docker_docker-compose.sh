@@ -20,7 +20,7 @@ sudo apt install docker-ce
 #sudo systemctl status docker
 
 #use docker without being root
-sudo usermod -aG docker datascience
+sudo usermod -aG docker vmuser
 
 #install docker-compose
 
