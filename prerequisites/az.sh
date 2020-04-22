@@ -2,7 +2,7 @@ az login
 
 az vm list-sizes -l "eastus"
 
-az group create -name "hergdatascience" -l "eastus"
+az group create --name "hergdatascience" -l "eastus"
 
 az vm create --resource-group "hergdatascience" -n "vm" --image "UbuntuLTS"  --size "Standard_B2ms"  --admin-username "vmuser" --admin-password "P@ssword12345" -l "eastus"
 
