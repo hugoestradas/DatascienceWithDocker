@@ -20,6 +20,6 @@ Folders:
 
 * db-scripts: contains the scripts that will configure the PostgreSQL instance, with an specific user, role and schema.
 
-* data-sets: contains a .zip file of 500000 records of sales and a dataset of firemen records of calls.
+* data-sets: contains a .zip file of 500000 records of sales data and a dataset of firemen records of calls.
 
 * jupyter-notebooks: contains the examples for data analysis usyng Python with Jupyter.
