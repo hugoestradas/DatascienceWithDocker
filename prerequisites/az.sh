@@ -14,4 +14,4 @@ az vm open-port  --port 8081 --resource-group "hergdatascience" -n "vm" --priori
 az vm open-port  --port 8088 --resource-group "hergdatascience" -n "vm" --priority 105
 az vm open-port  --port 9000 --resource-group "hergdatascience" -n "vm" --priority 106
 
-#az group delete -n "datasciencerg"
+#az group delete -n "hergdatascience"
