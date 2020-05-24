@@ -1,4 +1,4 @@
-az login
+#az login
 
 az vm list-sizes -l "eastus"
 
@@ -14,4 +14,4 @@ az vm open-port  --port 8081 --resource-group "hugoestradasdatasciencerg" -n "vm
 az vm open-port  --port 8088 --resource-group "hugoestradasdatasciencerg" -n "vm-dsenv" --priority 105
 az vm open-port  --port 9000 --resource-group "hugoestradasdatasciencerg" -n "vm-dsenv" --priority 106
 
-#az group delete -n "hergdatascience"
+#az group delete -n "hugoestradasdatasciencerg"
