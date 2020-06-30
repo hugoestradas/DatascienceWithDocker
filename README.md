@@ -1,4 +1,4 @@
-# Data Science with Docker
+# Data Science With Docker
 
 🖥🐋📊🛠⚙🚀
 
