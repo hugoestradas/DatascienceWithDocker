@@ -1,4 +1,4 @@
-#az login
+az login
 
 az vm list-sizes -l "eastus"
 
