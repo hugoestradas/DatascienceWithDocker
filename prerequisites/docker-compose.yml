@@ -38,4 +38,4 @@ services:
                         - MINIO_SECRET_KEY=password
                 command: server /data
 volumes:
-        pg_data:              
+        pg_data:
