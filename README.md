@@ -6,7 +6,7 @@ Data Science 101 with Docker
 
 A complete scientific environment using Docker, Jupyter Notebooks, Apache Superset, PostgreSQL, Pgweb and MinIO.
 
-Designed to work in Linux (Ubuntu preferably).
+Designed to work in Linux (Ubuntu).
 
 Instructions:
 
