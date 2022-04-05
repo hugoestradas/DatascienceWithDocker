@@ -7,11 +7,13 @@ services:
         container_name: "jupyter"
         ports:
             - 8888:8888
+            
     superset:
         image: tylerfowler/superset
         container_name: "superset"
         ports:
             - 8088:8088
+            
     postgres:
         image: 'postgres:13.2'
         container_name: "postgres"
