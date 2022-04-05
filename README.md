@@ -10,7 +10,7 @@ Designed to work in Linux (Ubuntu).
 
 Instructions:
 
-1. get into the "prerequisites" folder and run  the "install_docker_docker-compose_.sh".
+1. run  the "install_docker_docker-compose_.sh".
 2. "docker-compose.yml" defines the services and volumes for the environment.
 3. "az" (which is optional) contains the required commands to deploy a virtual machine in Azure in which you can cofigure this      environment.
 
