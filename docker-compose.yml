@@ -1,0 +1,40 @@
+version: "3"
+services:
+    jupyter:
+        image: jupyter/scipy-notebook
+        container_name: "jupyter"
+        ports:
+            - 8888:8888
+    superset:
+        image: tylerfowler/superset
+        container_name: "superset"
+        ports:
+            - 8088:8088
+    postgres:
+        image: 'postgres:13.2'
+        container_name: "postgres"
+        environment:
+            - POSTGRES_DB=postgres
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=postgres
+        ports:
+            - "5432:5432"
+    pgweb:
+        image: sosedoff/pgweb
+        container_name: "pgweb"
+        restart: unless-stopped
+        environment:
+            - DATABASE_URL=postgres://postgres:postgres@postgres:5432/postgres?sslmode=disable
+        ports:
+            - "8081:8081"
+        depends_on:
+            - postgresdb
+    minio:
+        image: minio/minio
+        container_name: "minio"
+        ports:
+            - 9000:9000
+        environment:
+            - MINIO_ACCESS_KEY=12345678
+            - MINIO_SECRET_KEY=password
+        command: server /data
