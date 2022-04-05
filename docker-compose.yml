@@ -33,6 +33,7 @@ services:
             - "8081:8081"
         depends_on:
             - postgresdb
+            
     minio:
         image: minio/minio
         container_name: "minio"
