@@ -1,6 +1,6 @@
 # Data Science With Docker
 
-🖥🐋📊🛠⚙🚀
+🖥👩🏻‍🔬🐋📊🛠🚀
 
 Data Science 101 with Docker
 
