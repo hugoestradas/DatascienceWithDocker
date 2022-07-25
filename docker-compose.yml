@@ -50,3 +50,4 @@ services:
 volumes:
   pgdata:
   minio_storage: {}
+  
